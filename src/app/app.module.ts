@@ -9,6 +9,7 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { HomeComponent } from './components/home/home.component';
 import { AuthorsComponent } from './components/authors/authors.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { AuthorsComponent } from './components/authors/authors.component';
     HomeComponent,
     AuthorsComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

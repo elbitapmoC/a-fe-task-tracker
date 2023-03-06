@@ -1,4 +1,12 @@
 <aside class="task">
-  <h3>{{ task.text }}</h3>
+  <h3>
+    {{ task.text }}
+    <fa-icon
+      [icon]="faTimes"
+      [ngStyle]="{
+        color: 'Tomato'
+      }"
+    ></fa-icon>
+  </h3>
   <p>{{ task.day }}</p>
 </aside>
